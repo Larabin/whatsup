@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jenny",
+      "thumbnail": "http://localhost:3001/images/default.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Niklas",
+      "thumbnail": "http://localhost:3001/images/Niklas.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Maya",
+      "thumbnail": "http://localhost:3001/images/default.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gabi",
+      "thumbnail": "http://localhost:3001/images/default.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Andrew",
+      "thumbnail": "http://localhost:3001/images/default.jpg"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "userId": 3
+    },
+    {
+      "id": 3,
+      "userId": 5
+    },
+    {
+      "id": 4,
+      "userId": 4
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "name": "Niklas",
+      "thumbnail": "http://localhost:3001/images/Niklas.jpg",
+      "users": [
+        1,
+        2
+      ],
+      "modifyDate": 12344
+    },
+    {
+      "id": 2,
+      "name": "Maya",
+      "thumbnail": "http://localhost:3001/images/default.jpg",
+      "users": [
+        1,
+        3
+      ],
+      "modifyDate": 123489
+    },
+    {
+      "id": 3,
+      "name": "Jenny,Niki and Maya",
+      "thumbnail": "http://localhost:3001/images/default.jpg",
+      "users": [
+        1,
+        2,
+        3
+      ],
+      "modifyDate": 12344666
+    },
+    {
+      "id": 4,
+      "name": "Gabi",
+      "thumbnail": "http://localhost:3001/images/default.jpg",
+      "users": [
+        1,
+        4
+      ],
+      "modifyDate": 1234897897
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "chatId": 2,
+      "userId": 3,
+      "text": "Hello Jenny",
+      "createdAt": 12345
+    },
+    {
+      "id": 2,
+      "chatId": 2,
+      "userId": 3,
+      "text": "How are you?",
+      "createdAt": 12345
+    },
+    {
+      "id": 3,
+      "chatId": 2,
+      "userId": 1,
+      "text": "Hi Maya, I am fine.",
+      "createdAt": 12345
+    },
+    {
+      "id": 4,
+      "chatId": 3,
+      "userId": 1,
+      "text": "Hi there",
+      "createdAt": 12345
+    },
+    {
+      "id": 5,
+      "chatId": 3,
+      "userId": 2,
+      "text": "Howdy",
+      "createdAt": 12345
+    },
+    {
+      "id": 6,
+      "chatId": 3,
+      "userId": 3,
+      "text": "Shalom",
+      "createdAt": 12345
+    },
+    {
+      "id": 7,
+      "chatId": 4,
+      "userId": 1,
+      "text": "Hello Gabi",
+      "createdAt": 12345
+    },
+    {
+      "id": 8,
+      "chatId": 4,
+      "userId": 1,
+      "text": "How are you?",
+      "createdAt": 12345
+    },
+    {
+      "id": 9,
+      "chatId": 4,
+      "userId": 4,
+      "text": "Hi Jenny, I am fine.",
+      "createdAt": 12345
+    }
+  ]
+}

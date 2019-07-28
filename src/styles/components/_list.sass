@@ -1,0 +1,27 @@
+.list
+  margin: 0 10px 
+  max-height: calc(100vh - 160px)
+  overflow: auto  
+  &_item
+    list-style-type: none
+    margin: 20px 10px 20px 0px  
+    background: $lighterGold
+    border-radius: 20px
+    cursor: pointer
+    &--contacts
+      justify-content: space-between
+      padding: 20px
+    &_thumbnail
+      border-radius: 50%
+      width: 80px
+      height: 80px
+      object-fit: cover      
+      padding: 10px
+    &_text
+      width: 200px
+      padding: 20px 0
+    &_time
+      padding: 20px        
+    &_title
+      font-weight: 600
+      display: block

@@ -1,0 +1,15 @@
+{
+  "short_name": "What's up",
+  "name": "What's up - Messenger Challenge",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#EFBB35",
+  "background_color": "#222831"
+}

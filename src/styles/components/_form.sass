@@ -1,0 +1,22 @@
+.form
+    text-align: center
+    margin: 0 20px
+    &_image-upload 
+      display: none
+    &.form--send-message
+      .fileUploader
+        width: 100%
+    .fileUploader
+      width: 200px
+      height: 200px
+      margin: 0 auto
+      padding: 10px
+    &_thumbnail
+      border-radius: 50%
+      width: 200px
+      height: 200px
+      object-fit: cover      
+      padding: 10px
+    &_error
+        color: $blue
+        display: block

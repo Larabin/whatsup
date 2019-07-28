@@ -1,0 +1,19 @@
+body {
+  background-color: $gold;
+}
+
+h1, h2 {
+  font-weight: normal;  
+}
+
+legend {
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+  color: $deeperBlue;  
+}
